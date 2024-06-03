@@ -1,0 +1,36 @@
+
+
+body{
+  background-color:whitesmoke;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+form{
+  width: 20%;
+  padding: 0px 50px 20px;
+  background-color:snow;
+  border-radius: 10px;
+  
+}
+form input{
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+#sub {
+  color: green;
+  cursor: pointer;
+}
+#sub:hover{
+  background-color: black;
+  color: snow;
+  transition:  background 5ms ease-in-out;
+}

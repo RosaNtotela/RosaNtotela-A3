@@ -1,0 +1,64 @@
+body{
+    /* background-image: url(../assets/IMG/Frutas.jpg); */
+    height: 10vh;
+    background-image: url('/img/fv.jpg');
+   
+}
+.container{
+
+    border: 10%;
+    justify-content: center;
+}
+
+.box1{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 h1{
+    color: rgba(0, 128, 0, 0.543);
+}
+nav { 
+    display: flex;
+    gap: 5px;
+    
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: snow;
+}
+nav a:hover{
+    background-color: green;
+    color: snow;
+    padding: 5px;
+    transition: background 2ms ease-in-out;
+    border-radius: 10px;
+
+}
+ .box2{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20%;
+ }
+ #pes{
+    width: 35%;
+    border: none;
+    border-radius: 8px ;
+    padding: 7px 5px;
+ }
+
+ #sub{
+    border: none;
+    background-color: rgba(0, 128, 0, 0.532);
+    cursor: pointer;
+    border-radius: 5px;
+    color: snow;
+    padding: 10px;
+ }
+ 

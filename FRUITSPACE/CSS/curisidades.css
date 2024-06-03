@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(77, 7, 7);
+}
+.mae{
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mae{
+    border-radius: 1px;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+
+}
+.dois{
+    border-radius: 10px;
+
+}
+.box1{
+    border-radius: 10px;
+    width: 5px;
+    height: 10%;
+}
+

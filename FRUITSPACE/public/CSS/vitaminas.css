@@ -1,0 +1,33 @@
+body{
+    /*background-color: rgba(0, 128, 43, 0.815);*/
+    background-image:url('/img/Frutas.jpg');
+    background-color: whitesmoke;
+   
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;    
+    border-color:red;
+   padding: 2%;
+   margin-top: 100px;
+}
+
+.para{
+    align-content: center;
+    text-indent: 50px;
+}
+    nav a { 
+        text-decoration: red;
+        color:black;
+
+    }
+   nav li{
+     list-style: none;
+
+    }
+
+    
+   
